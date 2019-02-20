@@ -1,0 +1,30 @@
+передача параметров
+
+
+
+public static void f(int x, LinkedList s) {
+область памяти stec
+int y=20;
+}
+int y=2;
+int a=1;
+A.f(a)
+
+y==2
+
+l.add
+add(l,"abc")
+
+
+Библиотеки
+
+jar - упаковщик библиотеки
+utilited.jar
+ДЗ
+
+1 расположить в пакеты (навести порядок)
+2 создать библиотеки Animal.jar figure.jar
+и подключить в третьем обьекте.
+
+3 использовать List
+4 использовать Set s=new HashSet(String)
