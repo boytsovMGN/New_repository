@@ -1,0 +1,73 @@
+
+
+абстрактный класс
+
+public abstract class Animal
+
+    public abstract void run(x,y);
+    public abstract void walk(x,y);
+
+    publuc void say(){
+
+    }
+    Cat extends Animal
+    необходимо реализовать методы
+    run(){}
+    walk(){}
+    implements для интерфейсов (в интерфейсах все методы без реализации)
+
+
+исключения
+
+    int a=0;
+   try{
+    int b=1/a;
+   }
+   catch(Exception e){
+    System.out.print("ошибка");
+   }
+   }
+
+
+   супер класс всех исключений Trowble(абстрактный класс)
+   у него есть Error(происходит при ошибке JVM) и Exception
+   у Exception есть IOExeption и RuntimeException(не проверяемые not cheked)
+   у RuntimeException есть ArithmeticEx и NullPointerEx
+   у IOExeption FileNotFoundEx
+
+   можно оборачивать вызывающую функцию
+
+
+   программы пишутся
+
+   web  desktop android
+
+   WEB
+   HTTP(протокол) то что браузер отправляет на сервер (Servet API библиотека)
+   SQL база данных (JDBC библиотека)
+
+   DESKTOP
+   UI библиотека
+   FILE
+
+   ANDROID
+   UI библиотека
+
+
+   WEB приложения
+   Servlet API  позволяет разным приложениям работать одинаково
+   Сервер приложений/сервлет контейнер
+
+   Tomcat  Jetty - сервлет контейнеры (наиболее популярные)
+
+
+   ДЗ
+   Поработать с исключениями
+   1) Exceptions:
+   имя < 2символов - исключение
+   свое исключение
+   запрашивать имя в отдельном методе
+   2) установить Tomcat после установки http://localhost:8080
+   3) установить базу данных PostgreSQL, MySQL после установки запустить PgAdmin
+
+
