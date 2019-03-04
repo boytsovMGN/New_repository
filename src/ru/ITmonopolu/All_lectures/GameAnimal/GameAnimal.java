@@ -13,10 +13,11 @@ public class GameAnimal {
         boolean flag=true;
         first=new Animal();
         first.name="собака";
-        Animal a24=new Animal();
+        Animal a24;
         List  list=new LinkedList();
         System.out.println("Введите название животного:");
         while (flag){
+            a24=new Animal();
             try {
                 a24.name = reader.readLine();
                 first.next = a24;
@@ -31,11 +32,5 @@ public class GameAnimal {
             }
         }
         System.out.println(list);
-
-
-
-//        Animal a25=new Animal();
-//        a25.name="крокодил";
-//        a24.next=a25;
     }
 }
